@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mroze.minerise.MineMenu">
+
+    <Button
+        android:id="@+id/mine_button"
+        android:layout_width="415dp"
+        android:layout_height="227dp"
+        android:layout_marginBottom="436dp"
+        android:background="@mipmap/map"
+        android:text="MAP"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="415dp"
+        android:layout_height="221dp"
+        android:layout_marginBottom="216dp"
+        android:background="@mipmap/handshake"
+        android:text="Start Your mine"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="415dp"
+        android:layout_height="221dp"
+        android:layout_marginTop="440dp"
+        android:background="@mipmap/safety"
+        android:text="Work in a mine"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+</android.support.constraint.ConstraintLayout>
